@@ -49,6 +49,29 @@ An authoritative, production-grade guide, architectural reference, and working c
 
 ---
 
+## ⚡ Interactive CLI Quickstart
+
+The repository includes a zero-dependency interactive command-line interface (`ai_engineers.py`):
+
+```bash
+# 1. Instant search across all 16 roadmaps, papers, cheat sheets, and glossary
+python ai_engineers.py search "landlock"
+python ai_engineers.py search "hybrid search"
+
+# 2. Run cookbook test suite
+python ai_engineers.py test
+
+# 3. Scaffold a production-ready starter project in seconds
+python ai_engineers.py scaffold rag my-rag-project
+python ai_engineers.py scaffold agent my-agent-project
+python ai_engineers.py scaffold mcp my-mcp-server
+
+# 4. Start the Model Context Protocol (MCP) server for Claude Code / Cursor
+python ai_engineers.py mcp
+```
+
+---
+
 ## 🗺 Architecture Roadmaps
 
 ### 1. [Context Engineering & Memory Management](roadmap/01_context_engineering.md)
